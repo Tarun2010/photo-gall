@@ -1,0 +1,67 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float:left
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    top: 0px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    width: 100%;
+position: fixed;
+    left:0;
+}
+.body{
+    text-align: center;
+    font-family: cursive;
+    background: linear-gradient(164deg, rgba(225, 225, 0, 1) 0%, rgba(0, 255, 0, 1) 100%);
+
+}
+.img2{
+    width: 49%;
+    height: 300px;
+}
+#grid{
+    text-align: center;
+}
+#myCarousel{
+    background-color: red;
+}
+#myCarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
